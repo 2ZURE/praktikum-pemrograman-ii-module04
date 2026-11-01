@@ -10,6 +10,6 @@ public class Cat extends Pet{
 
     public void displayCatDetails() {
         super.display();
-        System.out.println("Memiliki warna bulu : " + furColor);
+        System.out.println("Memiliki warna bulu : " + this.furColor);
     }
 }
